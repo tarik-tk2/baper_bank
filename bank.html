@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="bank.css">
+    <title>Document</title>
+</head>
+<body>
+ <h1 class="font-bold text-7xl  text-center  name mt-16">Bap-Er-Bank</h1>
+   <main >
+    <div class="flex mt-4">
+        <div class=" shadow-lg deposit flex-1 h-24 bg-gradient-to-r from-green-400 to-blue-500">
+           <h1 class=" font-bold text-white text-4xl  text-center p-5 mt-7">Deposit  </h1>
+           <h1 class=" font-bold text-white text-4xl  text-center p-5">$ <span id="deposit-money">300</span>  </h1>
+        </div>
+        <div class="shadow-lg withdraw flex-1 h-24 bg-gradient-to-r from-red-500 ">
+             <h1 class="font-bold text-white text-4xl  text-center p-5 mt-7 ">WithDraw </h1>
+             <h1 class=" font-bold text-white text-4xl  text-center p-5">$ <span id='withdraw-money'>200</span>  </h1>
+        </div>
+        <div class=" shadow-lg total flex-1 h-24 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+          <h1 class="font-bold text-4xl text-white text-center p-5 mt-7">Total </h1>
+          <h1 class=" font-bold text-white text-4xl  text-center p-5">$ <span id="total">4000</span>  </h1>
+        </div>
+      </div>
+      <div class="input-section">
+        <div class="flex  ">
+            <div class="flex-1"> 
+              <input class ="text-center  border border-black px-6. p-3 items-center block"type="text" name="" id="deposit" placeholder="Enter Amount">
+                <button class="mt-4 items-center block  py-3 px-6 br bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500"type="submit" id="deposit-btn">Deposit</button>
+            </div>
+            <div class="flex-1"> 
+              <input class ="text-center border border-black   px-6. p-3 items-center block"type="text" name="" id="withdraw" placeholder="Enter Amount">
+              <button  class="mt-4 ml-8 items-center block  py-3 px-6 br bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500" type="submit" id="withdraw-btn">Withdraw</button>
+          </div>
+        </div>
+      </div>
+   </main> 
+   <script src="bank.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.bank{
+    height:300px;
+    width:600px;
+    background:green;
+}
+.center{
+    border:1px solid red;
+    margin-top:200px;
+}
+.login{
+    height:300px;
+    width:600px;
+    border-radius: 10px;
+    /* background: #000; */
+    margin:auto;
+    margin-top: 100px;
+  
+}
+#email,#password,#submit{
+    margin: auto;
+}
+.login-div{
+    padding-top: 20px;
+}
+#email{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#submit{
+    margin-top: 20px;
+}
+#error{
+    text-align:center;
+  
+}
+#name{
+color:rgb(131, 37, 73)
+}

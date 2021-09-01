@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body> 
+    
+    <h1 class="font-extrabold text-center normal-case mt-8 text-6xl">Welcome To <span id="name">Bap-er-Bank</span></h1>
+    
+    <div class="login bg-gradient-to-r from-purple-400 via-pink-500 to-red-500  shadow-lg" >
+         <p id="error">
+
+         </p>
+        <div class="login-div ">
+            <input class="text-center outline-none rounded-full py-3 px-6. block p-3 mb-4 place-items-center" type="email" name="email" id="email" placeholder=" Enter Email" >
+        <input class="text-center outline-none rounded-full py-3 px-6. p-3 items-center block" type="password" name="" id="password" placeholder="enter Password">
+        <button id="submit" class="mt-4 items-center block rounded-full py-3 px-6 br bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500" id="submit"> Submit</button>
+        </div>
+
+    </div>
+   
+    <script src="login.js"></script>
+</body>
+</html>

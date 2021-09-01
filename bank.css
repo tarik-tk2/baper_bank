@@ -1,0 +1,17 @@
+.deposit,.withdraw,.total {
+    height:300px;
+    margin:10px;
+    border-radius: 10px;
+
+}
+.name{
+    color:rgb(131, 37, 73);
+    }
+ .input-section{
+     width:70%;
+     margin: auto;
+     margin-top: 50px;
+ } 
+ #deposit-btn,#withdraw-btn{
+     margin-left: 80px;
+ }
